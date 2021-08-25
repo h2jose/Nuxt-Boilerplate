@@ -1,0 +1,24 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+//@import '@/assets/css/fonts.css';
+
+$body-font-family: 'Montserrat';
+$heading-font-family: 'Lobster';
+$font-size-root: 18px;
+
+$material-dark: (
+	app-bar: #1B4A7B,
+	background: #012947,
+	cards: #1B4A7B,
+	text: (
+		'primary': #fdbd7f,
+		'secondary': #ffffff,
+		'disabled': #CFD8DC,
+		'link': #fdbd7f,
+		'link-hover': #012947
+	),
+	navigation-drawer: #7e4e2a,
+);
